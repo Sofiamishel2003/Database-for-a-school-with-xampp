@@ -1,0 +1,192 @@
+/* Menú ------------------------------------------------------------*/
+nav.primary-navigation {
+    margin: 0 auto;
+    display: block;
+    padding: 10px 0 0 0;
+    text-align: center;
+    font-size: 16px;
+  }
+  nav.primary-navigation ul li {
+    list-style: none;
+    margin: 0 auto;
+    border-left: 2px solid white;
+    display: inline-block;
+    padding: 0 30px;
+    position: relative;
+    text-decoration: none;
+    text-align: center;
+    font-family:  Garamond;
+    font-size: larger;
+  }
+  nav.primary-navigation li a {
+    color: white;
+  }
+  nav.primary-navigation li a:hover {
+    color: white;
+  }
+  nav.primary-navigation li:hover {
+    cursor: pointer;
+  }
+  nav.primary-navigation ul li ul { /* submenú*/
+    visibility: hidden;
+    opacity: 0;
+    position: absolute;
+    padding-left: 0;
+    left: 0;
+    display: none;
+    background: black;
+  }
+  nav.primary-navigation ul li:hover > ul,
+  nav.primary-navigation ul li ul:hover {
+    visibility: visible;
+    opacity: 1;
+    display: block;
+    min-width: 250px;
+    text-align: left;
+    padding-top: 20px;
+    box-shadow: 0px 3px 5px -1px #ccc;
+  }
+  nav.primary-navigation ul li ul li {
+    clear: both;
+    width: 100%;
+    text-align: left;
+    margin-bottom: 20px;
+    border-style: none;
+  }
+  nav.primary-navigation ul li ul li a:hover {
+    padding-left: 10px;
+    border-left: 2px solid whitesmoke;
+    transition: all 0.3s ease;
+  }
+  
+  a {
+    text-decoration: none;
+    color: white;
+  }
+  
+  
+  ul li ul li a {
+    transition: all 0.5s ease;
+  }
+  /* Franja blanca superior---------------------------------------------------------- */
+  .cuadrado{
+    text-align: right;
+    margin:0px;
+    height: 70px;
+    background-color: whitesmoke;
+    color:whitesmoke;
+    }
+  .cuadrado2{
+    padding:0px;
+    text-align: right;
+    margin:0px;
+    height: 50px;
+    background-color:  whitesmoke;
+    color: whitesmoke;
+    }
+  /* LOGIN---------------------------------------------------------- */
+  
+  body {
+    background-color: rgb(48, 64, 133);
+    font-family: Garamond;
+  
+  }
+  .login {
+    margin: 20px auto;
+    width: 300px;
+    }
+  .login-screen {
+    background-color: #FFF;
+    padding: 20px;
+    border-radius: 5px
+    }
+  .login-screen2 {
+      background-color: #FFF;
+      padding: 20px;
+      border-radius: 5px
+      }
+  .app-title {
+    text-align: center;
+    color: #777;
+    font-family: Garamond;
+    font-size: large;
+    }
+    
+  .login-form {
+    text-align: center;
+    }
+  .control-group {
+    margin-bottom: 10px;
+    }
+    
+  
+    
+  
+    
+  .btn {
+      border: 2px solid transparent;
+      background: rgb(238, 209, 80);
+      color: #ffffff;
+      font-size: 16px;
+      line-height: 25px;
+      padding: 10px 0;
+      text-decoration: none;
+      text-shadow: none;
+      border-radius: 3px;
+      box-shadow: none;
+      transition: 0.25s;
+      display: block;
+      width: 250px;
+      margin: 0 auto;
+    }
+  .btn:hover {
+      background-color: rgb(9, 2, 20);
+      cursor: pointer;
+    }
+    
+  .login-link {
+      font-size: 12px;
+      color: #444;
+      display: block;
+      margin-top: 12px;
+    }
+  /* LOGIN---------------------------------------------------------- */
+  
+    
+  
+  
+    
+    h1 {
+       text-align: center;
+       color: #a8a8a8;
+    }
+    
+    form {
+       max-width: 600px;
+       text-align: center;
+       margin: 20px auto;
+      }
+  
+        
+      textarea {
+          height: 126px;
+      }
+    
+    .half {
+      float: left;
+      width: 48%;
+      margin-bottom: 5em;
+      text-align: left;
+    }
+      
+    .left {
+         margin-right: 2%; 
+    }
+    .S1 {
+      text-align:left ;
+  }
+    
+  
+    
+     
+   
